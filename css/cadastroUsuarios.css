@@ -38,3 +38,31 @@ form{
     flex-direction: column;
     align-items: center;
 }
+input.form-control:hover {
+  transform: scale(1.05);
+  transition: transform 0.2s ease; 
+}
+.form-container p {
+  text-align: center;
+  margin-bottom: 1.5rem;
+  font-size: 0.9rem;
+  color: #ffffff; 
+}
+
+input.form-control {
+  border: none; 
+  outline: none; 
+  background-color: #373946 ;
+  color: #ffffff; 
+  padding: 0.5rem;
+  border-radius: 5px;
+}
+.input-group-text {
+  background-color: #2a2a2a; 
+  border: none; 
+  color: #ffffff; 
+}
+
+.input-group-text i {
+  font-size: 1.2rem;
+}
