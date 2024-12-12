@@ -18,18 +18,21 @@ body {
   .form-container h1 {
     text-align: center;
     font-size: 1.8rem;
-    margin-bottom: 0.5rem;
+    margin-bottom: 0.2rem;
   }
   .form-container p {
     text-align: center;
     margin-bottom: 1.5rem;
     font-size: 0.9rem;
+    margin-top: 0;
   }
   .btn-primary {
-    width: 50%;
+    width: 30%;
     background-color: #0C273E;
     border-radius: 20px;
+    border-color: #0C273E;
     justify-content: center;
+    color: #ffffff;
     
   }
 
@@ -37,6 +40,7 @@ form{
     display: flex;
     flex-direction: column;
     align-items: center;
+    gap: 1rem;
 }
 input.form-control:hover {
   transform: scale(1.05);
@@ -49,20 +53,35 @@ input.form-control:hover {
   color: #ffffff; 
 }
 
-input.form-control {
+.form-control {
   border: none; 
   outline: none; 
   background-color: #373946 ;
   color: #ffffff; 
   padding: 0.5rem;
   border-radius: 5px;
+
 }
 .input-group-text {
   background-color: #2a2a2a; 
   border: none; 
   color: #ffffff; 
+
 }
+  
 
 .input-group-text i {
+  font-family: "Bootstrap Icons" !important;
   font-size: 1.2rem;
+}
+.form-control {
+  width: 100%; 
+  max-width: 500px;
+}
+.input-group {
+  width: 100%; 
+  max-width: 500px; 
+}
+.bi {
+  color: #007bff;
 }
