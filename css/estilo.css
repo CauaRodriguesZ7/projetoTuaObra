@@ -8,17 +8,4 @@ html, body{
     height: 100%;
 }
 
-header {
-    display: flex;
-   
-}
 
-.imgclasse{
-    width: 70px;
-    height: 60px;
-    background-image: url(../img/TuaObraImg.png);
-    background-color: rgb(28, 28, 28);
-    background-size:70%;
-    background-repeat: no-repeat;
-    background-position: center;
-}
