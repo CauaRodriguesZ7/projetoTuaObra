@@ -1,87 +1,60 @@
 body {
-    background-color: #1a1a1a;
-    color: #373946;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    margin: 0;
-  }
-  .form-container {
-    background-color: #1B1C24;
-    padding: 2rem;
-    border-radius: 10px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
-    width: 100%;
-    max-width: 400px;
-  }
-  .form-container h1 {
-    text-align: center;
-    font-size: 1.8rem;
-    margin-bottom: 0.2rem;
-  }
-  .form-container p {
-    text-align: center;
-    margin-bottom: 1.5rem;
-    font-size: 0.9rem;
-    margin-top: 0;
-  }
-  .btn-primary {
-    width: 30%;
-    background-color: #0C273E;
-    border-radius: 20px;
-    border-color: #0C273E;
-    justify-content: center;
-    color: #ffffff;
-    
-  }
+  background-color: black;
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
 
-form{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 1rem;
+.form-container {
+  background-color: #1B1C24;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+  width: 100%;
+  max-width: 400px;
 }
-input.form-control:hover {
-  transform: scale(1.05);
-  transition: transform 0.2s ease; 
+
+.form-container h1 {
+  text-align: center;
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
 }
+
 .form-container p {
   text-align: center;
+  color: #ffffff;
   margin-bottom: 1.5rem;
   font-size: 0.9rem;
-  color: #ffffff; 
+}
+
+.input-group-text {
+  background-color: #2a2a2a;
+  border: none;
+  color: #ffffff;
 }
 
 .form-control {
-  border: none; 
-  outline: none; 
-  background-color: #373946 ;
-  color: #ffffff; 
+  border: none;
+  outline: none;
+  background-color: #2a2a2a;
+  color: #ffffff;
   padding: 0.5rem;
   border-radius: 5px;
+}
 
+.form-control:focus {
+  box-shadow: 0 0 5px rgba(255, 255, 255, 0.5);
 }
-.input-group-text {
-  background-color: #2a2a2a; 
-  border: none; 
-  color: #ffffff; 
 
+.btn-primary {
+  width: 45%;
+  border-radius: 20px;
+  margin-top: 1rem;
+  display: block; 
+  margin-left: auto; 
+  margin-right: auto; 
 }
-  
 
-.input-group-text i {
-  font-family: "Bootstrap Icons" !important;
-  font-size: 1.2rem;
-}
-.form-control {
-  width: 100%; 
-  max-width: 500px;
-}
-.input-group {
-  width: 100%; 
-  max-width: 500px; 
-}
-.bi {
-  color: #007bff;
-}
