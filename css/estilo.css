@@ -11,3 +11,14 @@ html, body{
 .logo{
  display: flex;
 }
+
+#logo-img {
+    width: 55px;
+    height: 55px;
+    align-items: auto;
+    margin-top: 25px;
+    margin-right: 11px;
+    border-radius: 50%;
+    border: 1.5px solid rgb(0, 0, 0) ;
+
+}
