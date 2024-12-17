@@ -8,7 +8,6 @@ html, body{
     height: 100%;
 }
 
-.logo {
-    margin-left: 10%;
+.logo{
+ display: flex;
 }
-
